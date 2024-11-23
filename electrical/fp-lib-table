@@ -1,3 +1,7 @@
 (fp_lib_table
-  (lib (name "CM4IO")(type "KiCad")(uri "C:/Users/sgmustadio/Documents/GitHub/rpi-cm4-carrier-template/hardware/libraries/CM4IO/CM4IO.pretty")(options "")(descr ""))
+  (version 7)
+  (lib (name "CM4IO")(type "KiCad")(uri "${KIPRJMOD}/libraries/CM4IO/CM4IO.pretty")(options "")(descr ""))
+  (lib (name "USB4105-GF-A")(type "KiCad")(uri "${KIPRJMOD}/libraries/USB4105-GF-A/USB4105-GF-A.pretty")(options "")(descr ""))
+  (lib (name "SMBJ5.0A-TR")(type "KiCad")(uri "${KIPRJMOD}/libraries/SMBJ5.0A-TR/SMBJ5.0A-TR.pretty")(options "")(descr ""))
+  (lib (name "KSZ9897RTXC")(type "KiCad")(uri "${KIPRJMOD}/libraries/KSZ9897RTXC/KSZ9897RTXC.pretty")(options "")(descr ""))
 )

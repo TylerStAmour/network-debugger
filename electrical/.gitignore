@@ -1,1 +1,3 @@
 *.lck
+rpi-cm4-carrier-template-backups/
+fp-info-cache
