@@ -1,0 +1,2961 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "61c83428-44b9-4960-86fd-35a40ea42cf5")
+	(paper "A4")
+	(lib_symbols
+		(symbol "KSZ9897RTXC:KSZ9897RTXC"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 45.72 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "KSZ9897RTXC"
+				(at 45.72 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "TQFP-EP128_TX_MCH"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "KSZ9897RTXC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "KSZ9897RTXC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TQFP-EP128_TX_MCH TQFP-EP128_TX_MCH-M TQFP-EP128_TX_MCH-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KSZ9897RTXC_1_1"
+				(polyline
+					(pts
+						(xy 7.62 -86.36) (xy 83.82 -86.36)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -86.36)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 83.82 -86.36) (xy 83.82 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 83.82 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at 0 0 0)
+					(length 7.62)
+					(name "TXRX1P_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -22.86 0)
+					(length 7.62)
+					(name "AVDDH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -25.4 0)
+					(length 7.62)
+					(name "DVDDL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -27.94 0)
+					(length 7.62)
+					(name "TXRX2P_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -30.48 0)
+					(length 7.62)
+					(name "TXRX2M_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -33.02 0)
+					(length 7.62)
+					(name "AVDDL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -35.56 0)
+					(length 7.62)
+					(name "TXRX2P_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -38.1 0)
+					(length 7.62)
+					(name "TXRX2M_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -40.64 0)
+					(length 7.62)
+					(name "TXRX2P_C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -43.18 0)
+					(length 7.62)
+					(name "TXRX2M_C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -45.72 0)
+					(length 7.62)
+					(name "AVDDL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "TXRX1M_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -48.26 0)
+					(length 7.62)
+					(name "TXRX2P_D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -50.8 0)
+					(length 7.62)
+					(name "TXRX2M_D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -53.34 0)
+					(length 7.62)
+					(name "AVDDH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -55.88 0)
+					(length 7.62)
+					(name "DVDDL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -58.42 0)
+					(length 7.62)
+					(name "TXRX3P_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -60.96 0)
+					(length 7.62)
+					(name "TXRX3M_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -63.5 0)
+					(length 7.62)
+					(name "TXRX3P_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -66.04 0)
+					(length 7.62)
+					(name "TXRX3M_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -68.58 0)
+					(length 7.62)
+					(name "TXRX3P_C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -71.12 0)
+					(length 7.62)
+					(name "TXRX3M_C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "AVDDL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -73.66 0)
+					(length 7.62)
+					(name "AVDDL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -76.2 0)
+					(length 7.62)
+					(name "TXRX3P_D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -78.74 0)
+					(length 7.62)
+					(name "TXRX3M_D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 91.44 -81.28 180)
+					(length 7.62)
+					(name "AVDDH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 91.44 -78.74 180)
+					(length 7.62)
+					(name "TXRX4P_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 91.44 -76.2 180)
+					(length 7.62)
+					(name "TXRX4M_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 91.44 -73.66 180)
+					(length 7.62)
+					(name "AVDDL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 91.44 -71.12 180)
+					(length 7.62)
+					(name "TXRX4P_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 91.44 -68.58 180)
+					(length 7.62)
+					(name "TXRX4M_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 91.44 -66.04 180)
+					(length 7.62)
+					(name "TXRX4P_C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "TXRX1P_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 91.44 -63.5 180)
+					(length 7.62)
+					(name "TXRX4M_C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 91.44 -60.96 180)
+					(length 7.62)
+					(name "AVDDL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 91.44 -58.42 180)
+					(length 7.62)
+					(name "TXRX4P_D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 91.44 -55.88 180)
+					(length 7.62)
+					(name "TXRX4M_D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 91.44 -53.34 180)
+					(length 7.62)
+					(name "AVDDH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 91.44 -50.8 180)
+					(length 7.62)
+					(name "DVDDL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 91.44 -48.26 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 91.44 -45.72 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 91.44 -43.18 180)
+					(length 7.62)
+					(name "TX_CLK6/REFCLKI6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 91.44 -40.64 180)
+					(length 7.62)
+					(name "TX_EN6/TX_CTL6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -10.16 0)
+					(length 7.62)
+					(name "TXRX1M_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 91.44 -38.1 180)
+					(length 7.62)
+					(name "TX_ER6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 91.44 -35.56 180)
+					(length 7.62)
+					(name "COL6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 91.44 -33.02 180)
+					(length 7.62)
+					(name "TXD6_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 91.44 -30.48 180)
+					(length 7.62)
+					(name "TXD6_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "53"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 91.44 -27.94 180)
+					(length 7.62)
+					(name "TXD6_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "54"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 91.44 -25.4 180)
+					(length 7.62)
+					(name "TXD6_0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "55"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 91.44 -22.86 180)
+					(length 7.62)
+					(name "DVDDL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "56"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 91.44 -20.32 180)
+					(length 7.62)
+					(name "RX_CLK6/REFCLKO6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "57"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 91.44 -17.78 180)
+					(length 7.62)
+					(name "RX_DV6/CRS_DV6/_RX_CTL6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "58"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 91.44 -15.24 180)
+					(length 7.62)
+					(name "RX_ER6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "59"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -12.7 0)
+					(length 7.62)
+					(name "TXRX1P_C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 91.44 -12.7 180)
+					(length 7.62)
+					(name "CRS6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "60"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 91.44 -10.16 180)
+					(length 7.62)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "61"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 91.44 -7.62 180)
+					(length 7.62)
+					(name "RXD6_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "62"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 91.44 -5.08 180)
+					(length 7.62)
+					(name "RXD6_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "63"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 91.44 -2.54 180)
+					(length 7.62)
+					(name "RXD6_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "64"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 91.44 0 180)
+					(length 7.62)
+					(name "RXD6_0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "65"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -15.24 0)
+					(length 7.62)
+					(name "TXRX1M_C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -17.78 0)
+					(length 7.62)
+					(name "TXRX1P_D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -20.32 0)
+					(length 7.62)
+					(name "TXRX1M_D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "KSZ9897RTXC_2_1"
+				(polyline
+					(pts
+						(xy 7.62 -83.82) (xy 88.9 -83.82)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -83.82)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 88.9 -83.82) (xy 88.9 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 88.9 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 96.52 -73.66 180)
+					(length 7.62)
+					(name "SCS_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "100"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 96.52 -71.12 180)
+					(length 7.62)
+					(name "SCL/MDC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "101"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 96.52 -68.58 180)
+					(length 7.62)
+					(name "LED5_0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "102"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 96.52 -66.04 180)
+					(length 7.62)
+					(name "LED5_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "103"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 96.52 -63.5 180)
+					(length 7.62)
+					(name "DVDDL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "104"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 96.52 -60.96 180)
+					(length 7.62)
+					(name "LED1_0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "105"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 96.52 -58.42 180)
+					(length 7.62)
+					(name "LED1_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "106"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 96.52 -55.88 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "107"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 96.52 -53.34 180)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "108"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 96.52 -50.8 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "109"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 96.52 -48.26 180)
+					(length 7.62)
+					(name "DVDDL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "110"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 96.52 -45.72 180)
+					(length 7.62)
+					(name "AVDDH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "111"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 96.52 -43.18 180)
+					(length 7.62)
+					(name "TXRX5P_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "112"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 96.52 -40.64 180)
+					(length 7.62)
+					(name "TXRX5M_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "113"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 96.52 -38.1 180)
+					(length 7.62)
+					(name "AVDDL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "114"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 96.52 -35.56 180)
+					(length 7.62)
+					(name "TXRX5P_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "115"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 96.52 -33.02 180)
+					(length 7.62)
+					(name "TXRX5M_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "116"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 96.52 -30.48 180)
+					(length 7.62)
+					(name "TXRX5P_C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "117"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 96.52 -27.94 180)
+					(length 7.62)
+					(name "TXRX5M_C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "118"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 96.52 -25.4 180)
+					(length 7.62)
+					(name "AVDDL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "119"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 96.52 -22.86 180)
+					(length 7.62)
+					(name "TXRX5P_D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "120"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 96.52 -20.32 180)
+					(length 7.62)
+					(name "TXRX5M_D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "121"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 96.52 -17.78 180)
+					(length 7.62)
+					(name "AVDDH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "122"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 96.52 -15.24 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "123"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 96.52 -12.7 180)
+					(length 7.62)
+					(name "AVDDL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "124"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 96.52 -10.16 180)
+					(length 7.62)
+					(name "XO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "125"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 96.52 -7.62 180)
+					(length 7.62)
+					(name "XI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "126"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 96.52 -5.08 180)
+					(length 7.62)
+					(name "ISET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "127"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 96.52 -2.54 180)
+					(length 7.62)
+					(name "AVDDH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "128"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 0 0)
+					(length 7.62)
+					(name "TX_CLK7/REFCLKI7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "66"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "TX_EN7/TX_CTL7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "67"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "TX_ER7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "68"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "COL7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "69"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -10.16 0)
+					(length 7.62)
+					(name "TXD7_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "70"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -12.7 0)
+					(length 7.62)
+					(name "TXD7_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "71"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -15.24 0)
+					(length 7.62)
+					(name "TXD7_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "72"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -17.78 0)
+					(length 7.62)
+					(name "TXD7_0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "73"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -20.32 0)
+					(length 7.62)
+					(name "DVDDL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "74"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -22.86 0)
+					(length 7.62)
+					(name "RX_CLK7/REFCLKO7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "75"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -25.4 0)
+					(length 7.62)
+					(name "RX_DV7/CRS_DV7/_RX_CTL7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "76"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -27.94 0)
+					(length 7.62)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "77"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -30.48 0)
+					(length 7.62)
+					(name "RX_ER7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "78"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -33.02 0)
+					(length 7.62)
+					(name "CRS7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "79"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -35.56 0)
+					(length 7.62)
+					(name "RXD7_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "80"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -38.1 0)
+					(length 7.62)
+					(name "RXD7_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "81"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -40.64 0)
+					(length 7.62)
+					(name "RXD7_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "82"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -43.18 0)
+					(length 7.62)
+					(name "RXD7_0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "83"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -45.72 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "84"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -48.26 0)
+					(length 7.62)
+					(name "LED4_0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "85"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -50.8 0)
+					(length 7.62)
+					(name "LED4_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "86"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -53.34 0)
+					(length 7.62)
+					(name "DVDDL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "87"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -55.88 0)
+					(length 7.62)
+					(name "LED3_0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "88"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -58.42 0)
+					(length 7.62)
+					(name "LED3_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "89"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -60.96 0)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "90"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -63.5 0)
+					(length 7.62)
+					(name "LED2_0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "91"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -66.04 0)
+					(length 7.62)
+					(name "LED2_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "92"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -68.58 0)
+					(length 7.62)
+					(name "PME_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "93"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -71.12 0)
+					(length 7.62)
+					(name "INTRP_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "94"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -73.66 0)
+					(length 7.62)
+					(name "CLKO_25_125"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "95"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -76.2 0)
+					(length 7.62)
+					(name "RESET_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "96"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -78.74 0)
+					(length 7.62)
+					(name "SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "97"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 96.52 -78.74 180)
+					(length 7.62)
+					(name "SDI/SDA/MDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "98"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 96.52 -76.2 180)
+					(length 7.62)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "99"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 96.52 0 180)
+					(length 7.62)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "EPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KSZ9897RTXC:KSZ9897RTXC")
+		(at 91.44 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ffd8f85-31db-4756-9338-c7c6bdecfa9a")
+		(property "Reference" "U1"
+			(at 137.16 43.18 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "KSZ9897RTXC"
+			(at 137.16 45.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "TQFP-EP128_TX_MCH"
+			(at 91.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "KSZ9897RTXC"
+			(at 91.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "26"
+			(uuid "04434a4c-7c29-4b47-8a9e-a3ce4e47645c")
+		)
+		(pin "65"
+			(uuid "c5a3efc0-7e77-426f-9ddf-be62b485e1cf")
+		)
+		(pin "7"
+			(uuid "f4146707-6f61-4bcc-8886-86fc5dfdb8cb")
+		)
+		(pin "8"
+			(uuid "b39eb8af-f8ac-4c74-b324-ebc745fa672d")
+		)
+		(pin "3"
+			(uuid "ca4ab794-a168-4d78-8f0f-9c2534487f92")
+		)
+		(pin "18"
+			(uuid "e61eab59-c976-4b64-aee3-85f2e5011ebf")
+		)
+		(pin "17"
+			(uuid "ef4959cf-ae27-4677-b1db-425821a7b1a8")
+		)
+		(pin "27"
+			(uuid "a18ec5d7-73ee-4128-8107-b0298ecf18e1")
+		)
+		(pin "41"
+			(uuid "8c2702df-c9d4-4f61-81c8-1068d54010fc")
+		)
+		(pin "53"
+			(uuid "30cacfc7-968a-43fe-a45b-2bec482c0308")
+		)
+		(pin "37"
+			(uuid "ba2be4e9-50cf-4905-a613-06b31a30688c")
+		)
+		(pin "55"
+			(uuid "ce8bbeb3-5f8b-445b-91a3-3aa83b758150")
+		)
+		(pin "60"
+			(uuid "ee1c64a6-5c3c-488c-bc80-0437672dd60a")
+		)
+		(pin "61"
+			(uuid "fac621eb-18fc-4ff5-9093-9a111047f633")
+		)
+		(pin "10"
+			(uuid "40c8e749-9efd-429e-b0cd-01ca3cbac369")
+		)
+		(pin "24"
+			(uuid "e869099a-d2e7-4aea-a7ae-d0559554a862")
+		)
+		(pin "28"
+			(uuid "a5fb087c-5ba0-4ad6-8055-a3ada7e40063")
+		)
+		(pin "4"
+			(uuid "60a423d6-2dc0-47b6-b419-320633ec06ec")
+		)
+		(pin "19"
+			(uuid "e04599b5-29b6-4d5e-aeca-ca22d0e37ba1")
+		)
+		(pin "16"
+			(uuid "0d992416-6442-45ff-a719-0dd6c0758e0b")
+		)
+		(pin "29"
+			(uuid "060e61e8-18b5-4e67-bc96-a3d81064e2ad")
+		)
+		(pin "45"
+			(uuid "988eb631-5688-4daa-a508-0508b831ce6c")
+		)
+		(pin "52"
+			(uuid "210483c0-88de-4eb7-adab-1d16b5a85d80")
+		)
+		(pin "25"
+			(uuid "bf6321aa-cc4f-4e80-85da-e944aa0e2c95")
+		)
+		(pin "33"
+			(uuid "a4081a01-c58e-4f18-b15a-17869bcf7bf0")
+		)
+		(pin "12"
+			(uuid "0202ea0e-49b2-40b6-bece-c655e791053f")
+		)
+		(pin "15"
+			(uuid "f75c691c-282c-4ae4-aa38-8ea544614b49")
+		)
+		(pin "13"
+			(uuid "086a0f1d-2212-49a0-a9f0-4393f9b90468")
+		)
+		(pin "34"
+			(uuid "e1b8bc4c-d3cc-40f0-851b-aa03007ac274")
+		)
+		(pin "36"
+			(uuid "c5e80a2a-8b02-4455-b572-758a4373790b")
+		)
+		(pin "42"
+			(uuid "031e2926-000b-4917-b34d-aac987503d91")
+		)
+		(pin "48"
+			(uuid "7cef85a4-e99f-4e0c-a27a-38ded080f98f")
+		)
+		(pin "49"
+			(uuid "b33399f7-9efe-45da-b4ea-7bf13f551e8e")
+		)
+		(pin "31"
+			(uuid "5533dcb9-ab30-4b7e-8f1d-796717c163aa")
+		)
+		(pin "50"
+			(uuid "85ed37d7-0c1d-4541-b764-853ded44d526")
+		)
+		(pin "51"
+			(uuid "296f4ba8-438b-4413-b872-8d104343856c")
+		)
+		(pin "54"
+			(uuid "0aa9df25-d4fb-4306-9541-6c7ed625d2d6")
+		)
+		(pin "43"
+			(uuid "266673f3-ae6b-49e1-a006-3d8880caa916")
+		)
+		(pin "14"
+			(uuid "fd8c330d-b098-4c46-a4dd-6e608df6505e")
+		)
+		(pin "35"
+			(uuid "e490957f-52d6-4e00-8ab7-ea43da14f2c1")
+		)
+		(pin "20"
+			(uuid "a01575be-6c74-48a8-b827-c65555a3ad0d")
+		)
+		(pin "56"
+			(uuid "8221c6cf-4c73-410f-b1ce-ee50b0e4e949")
+		)
+		(pin "57"
+			(uuid "5be433d1-e4d3-4c75-9fb5-8191a8a6afdb")
+		)
+		(pin "38"
+			(uuid "12f720a7-da43-4a57-8cee-6f7fa59bf712")
+		)
+		(pin "59"
+			(uuid "6c151c83-94d2-4328-97cc-19bbb4a19d59")
+		)
+		(pin "32"
+			(uuid "ef66cd33-5f59-4367-8df1-47bacb593890")
+		)
+		(pin "11"
+			(uuid "1eae8a50-29d7-4926-9cea-af0e15bae951")
+		)
+		(pin "2"
+			(uuid "b1dc419a-b3b9-4dc9-888f-0de1cf344bea")
+		)
+		(pin "46"
+			(uuid "feb04f45-fa4d-4520-a9f8-f0f8cbd9e2e2")
+		)
+		(pin "58"
+			(uuid "d2d653bb-d8ed-4aa9-8cfd-3b33568bad6c")
+		)
+		(pin "39"
+			(uuid "272b1e0c-e646-465a-abff-2f9cab0ab76e")
+		)
+		(pin "1"
+			(uuid "e6166209-b7d9-4f7a-9292-94e39b93da0a")
+		)
+		(pin "62"
+			(uuid "e3c52550-53c4-4269-af9b-5656fa5c8f2f")
+		)
+		(pin "5"
+			(uuid "a1251e56-36c0-430c-9425-23f761a83b96")
+		)
+		(pin "64"
+			(uuid "182e6e99-43da-4846-8c00-049744e952c2")
+		)
+		(pin "21"
+			(uuid "8f280c36-d0cd-430a-837b-87dff79ae898")
+		)
+		(pin "47"
+			(uuid "4b59b1ec-ad60-4cf7-8c94-741c7bb610fc")
+		)
+		(pin "6"
+			(uuid "48da953c-f202-4e1e-914c-d584cff45015")
+		)
+		(pin "63"
+			(uuid "33d5dc0a-0ab9-4e14-8285-28f5d21cc34a")
+		)
+		(pin "22"
+			(uuid "6785f632-ecb4-4e85-9d76-1af2dd06fbfd")
+		)
+		(pin "23"
+			(uuid "3bb055ca-d3c5-41b1-86b7-45bfb7f8b6e5")
+		)
+		(pin "30"
+			(uuid "882804c0-2587-4e69-b40a-f3e04ce8ad58")
+		)
+		(pin "44"
+			(uuid "ae5678e1-6a72-496f-878d-cadbe8b4a7ca")
+		)
+		(pin "40"
+			(uuid "3b7d0a61-c9c4-44a7-b4eb-809adc00cede")
+		)
+		(pin "125"
+			(uuid "47544515-d5ae-4a51-b724-07be2d6fe329")
+		)
+		(pin "128"
+			(uuid "108319bb-e17a-4930-8896-b238c83e8288")
+		)
+		(pin "117"
+			(uuid "29e683e2-c722-4950-a5e7-11eb044f4aa7")
+		)
+		(pin "67"
+			(uuid "ef405d3b-8c12-42ae-9d22-bbff7102a296")
+		)
+		(pin "68"
+			(uuid "041a92f7-5fb6-4cf9-af2f-81f7b2deb050")
+		)
+		(pin "101"
+			(uuid "d279424f-1f8f-4dfb-b210-1159ad64f0ea")
+		)
+		(pin "69"
+			(uuid "de139c7a-4430-4359-aa07-561fc4e9ea63")
+		)
+		(pin "71"
+			(uuid "166e26c1-3f87-4b79-bb07-dc65e9d8ecad")
+		)
+		(pin "74"
+			(uuid "283b5768-539c-48f1-bb37-b9cb00fa2b97")
+		)
+		(pin "121"
+			(uuid "9147b72e-fbfe-4b8b-87df-1aaf8e4a56eb")
+		)
+		(pin "124"
+			(uuid "aa351e3d-0509-49f9-a57b-3a4566abfd33")
+		)
+		(pin "127"
+			(uuid "6182c4aa-6704-4c61-aad2-9527992acf37")
+		)
+		(pin "105"
+			(uuid "cf3891c3-d932-4690-a453-ad75cf29ebb5")
+		)
+		(pin "103"
+			(uuid "b6567b89-c3cf-4673-99cb-83806a483a3d")
+		)
+		(pin "116"
+			(uuid "7ef9240e-ecd0-48b5-ae9b-e0b8cc3f6a15")
+		)
+		(pin "70"
+			(uuid "289554aa-28d5-489c-bf47-61a6c97bceb5")
+		)
+		(pin "75"
+			(uuid "e88c7a8d-d04b-4d26-a7da-a829dd52622d")
+		)
+		(pin "77"
+			(uuid "3c3a6174-eac0-4fc7-8933-7ad8712e2c59")
+		)
+		(pin "66"
+			(uuid "5696abd8-b386-49d6-8e42-cff45aeb1b09")
+		)
+		(pin "78"
+			(uuid "deb6794b-bb78-465e-b4f4-7379da242b1e")
+		)
+		(pin "81"
+			(uuid "f1f8826f-0f2c-4220-b8a2-3f6ecaeebaf2")
+		)
+		(pin "100"
+			(uuid "fa7d199c-aa6d-45f1-abdd-623135d694c6")
+		)
+		(pin "83"
+			(uuid "e324cd2b-5fa4-4821-961a-1fd4d90f171f")
+		)
+		(pin "106"
+			(uuid "89565468-acc8-408e-a427-c0c3b580a7b4")
+		)
+		(pin "85"
+			(uuid "499bf810-cea7-4e2d-bda0-6817e4e3c052")
+		)
+		(pin "76"
+			(uuid "76ce9ed6-1318-44ef-a31e-9dde0bd095ef")
+		)
+		(pin "86"
+			(uuid "f3bbd7ce-3996-4b47-ba32-fe347221b2ed")
+		)
+		(pin "114"
+			(uuid "572170c5-2145-48f6-8c2c-9276e3da3eef")
+		)
+		(pin "87"
+			(uuid "68a9ccff-2691-481f-834a-86612fb6563f")
+		)
+		(pin "82"
+			(uuid "b6aef413-b0b7-4d89-9a5a-99c7943d37b2")
+		)
+		(pin "88"
+			(uuid "2502596a-57cd-40d6-801b-b047cef5b1a6")
+		)
+		(pin "102"
+			(uuid "66d6d7c1-504c-4175-bf07-81213d4b81e4")
+		)
+		(pin "89"
+			(uuid "b59b485b-b3e5-4f17-a33a-ed548bebfb74")
+		)
+		(pin "104"
+			(uuid "ab2796c2-d624-45d8-99b0-77166058fdd0")
+		)
+		(pin "109"
+			(uuid "d0987b84-0794-4489-af7a-d550dd0a284d")
+		)
+		(pin "73"
+			(uuid "e88d086b-452c-469d-89eb-3f65c4a54ef0")
+		)
+		(pin "120"
+			(uuid "69e39407-3ac2-40ff-b5e6-7e1a36ae84c9")
+		)
+		(pin "90"
+			(uuid "c33dfe08-82fd-4624-bcdb-e29a58241344")
+		)
+		(pin "91"
+			(uuid "9e332362-f1f3-482d-bdb4-e6dedd58d1b2")
+		)
+		(pin "92"
+			(uuid "8bfaaa74-8155-45c9-88c3-729c6f9a1841")
+		)
+		(pin "93"
+			(uuid "b984a149-202b-4df9-b7ad-efb4cbebaf91")
+		)
+		(pin "94"
+			(uuid "fbf202be-d7b1-4382-9c8b-7251bea64737")
+		)
+		(pin "95"
+			(uuid "7c3ded41-f7aa-4ba5-a63a-544be9fdea69")
+		)
+		(pin "96"
+			(uuid "7e99ce74-9e2d-4e83-8c4b-f73a5c09b8e2")
+		)
+		(pin "97"
+			(uuid "9214052e-592b-4d56-a856-ba3172aeb0f7")
+		)
+		(pin "98"
+			(uuid "a72e7c26-b8fd-477d-8c2d-f380e6c37e93")
+		)
+		(pin "99"
+			(uuid "17688af4-cf6e-4168-b04f-35d91a3daf6c")
+		)
+		(pin "80"
+			(uuid "f5852d82-55ac-4e80-aff6-e367ef29c956")
+		)
+		(pin "84"
+			(uuid "4e7e8ad5-567a-4b5e-a816-6f549f120b53")
+		)
+		(pin "72"
+			(uuid "5872e73e-dbe9-4fa4-8dbb-33422188673b")
+		)
+		(pin "108"
+			(uuid "1b11d148-c8db-470b-b436-f32a17d170e7")
+		)
+		(pin "122"
+			(uuid "bc2aaf51-c2c7-47f7-ba68-c366f650f703")
+		)
+		(pin "79"
+			(uuid "4b02850b-b195-4e7d-bda9-388c1f1eb90e")
+		)
+		(pin "118"
+			(uuid "bca02046-d785-4fcd-a9aa-bed079f1824c")
+		)
+		(pin "115"
+			(uuid "f5732f66-f797-461f-84df-5a02c1839586")
+		)
+		(pin "107"
+			(uuid "7611533a-72f3-4cee-9a1b-f20a77b8e541")
+		)
+		(pin "126"
+			(uuid "b4c06bf0-2243-456b-9b72-ba533471d7f3")
+		)
+		(pin "112"
+			(uuid "84ce7b0f-b25f-4c0a-b785-b31032afcda9")
+		)
+		(pin "119"
+			(uuid "0f1f0762-b25b-4e54-b090-e3eedf9404cb")
+		)
+		(pin "9"
+			(uuid "938be6f3-1a36-4742-b582-fbd213d2a0e7")
+		)
+		(pin "110"
+			(uuid "dd29d493-a2e1-4539-bb86-1ce515a5a795")
+		)
+		(pin "111"
+			(uuid "ae8f6c35-b827-41c7-ae46-482c0f4c5c2d")
+		)
+		(pin "113"
+			(uuid "76f7589b-b9e6-468d-a0a8-b71c2401adc9")
+		)
+		(pin "123"
+			(uuid "22fd0f2e-c1ad-4651-857a-2aa979e9253f")
+		)
+		(pin "EPAD"
+			(uuid "ed904337-3feb-4e1d-95f2-51c36b0a657b")
+		)
+		(instances
+			(project ""
+				(path "/87b93ef3-3469-436c-9ae8-16e6c9607244/a750164c-9325-431d-9312-5cb40f11da35"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

@@ -1,3 +1,10 @@
 *.lck
 rpi-cm4-carrier-template-backups/
 fp-info-cache
+
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+
+\#auto_saved_files#
