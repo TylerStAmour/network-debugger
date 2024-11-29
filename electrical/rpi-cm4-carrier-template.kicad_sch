@@ -14,6 +14,82 @@
 	)
 	(lib_symbols)
 	(sheet
+		(at 179.07 102.87)
+		(size 29.21 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4602b6f1-ddcf-45b9-886d-ec7afe9a88b0")
+		(property "Sheetname" "RJ-45 Magjacks"
+			(at 179.07 102.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rj45.kicad_sch"
+			(at 179.07 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "rpi-cm4-carrier-template"
+				(path "/87b93ef3-3469-436c-9ae8-16e6c9607244"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.07 49.53)
+		(size 41.91 40.64)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a750164c-9325-431d-9312-5cb40f11da35")
+		(property "Sheetname" "KSZ9897RTXC Switch"
+			(at 179.07 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "KSZ9897RTXC.kicad_sch"
+			(at 179.07 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "rpi-cm4-carrier-template"
+				(path "/87b93ef3-3469-436c-9ae8-16e6c9607244"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 101.6 101.6)
 		(size 38.1 38.1)
 		(stroke

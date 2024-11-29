@@ -617,6 +617,14 @@
     [
       "caa71f4c-454d-4ac9-b287-456eafb34991",
       "CM4 High Speed"
+    ],
+    [
+      "a750164c-9325-431d-9312-5cb40f11da35",
+      "KSZ9897RTXC Switch"
+    ],
+    [
+      "4602b6f1-ddcf-45b9-886d-ec7afe9a88b0",
+      "RJ-45 Magjacks"
     ]
   ],
   "text_variables": {}
