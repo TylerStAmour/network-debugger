@@ -4,6 +4,5 @@
   (lib (name "USB4105-GF-A")(type "KiCad")(uri "${KIPRJMOD}/libraries/USB4105-GF-A/USB4105-GF-A.pretty")(options "")(descr "USB-C"))
   (lib (name "SMBJ5.0A-TR")(type "KiCad")(uri "${KIPRJMOD}/libraries/SMBJ5.0A-TR/SMBJ5.0A-TR.pretty")(options "")(descr "Diode"))
   (lib (name "KSZ9897RTXC")(type "KiCad")(uri "${KIPRJMOD}/libraries/KSZ9897RTXC/KSZ9897RTXC.pretty")(options "")(descr "Microchip 7-Port Switch"))
-  (lib (name "RJMG201K21120FR")(type "KiCad")(uri "${KIPRJMOD}/libraries/RJMG201K21120FR/RJMG201K21120FR.pretty")(options "")(descr "Amphenol ICC RJ-45 Magjack"))
   (lib (name "0826-1G1T-23-F")(type "KiCad")(uri "${KIPRJMOD}/libraries/0826-1G1T-23-F/0826-1G1T-23-F.pretty")(options "")(descr "Belfuse RJ-45 Magjack"))
 )
