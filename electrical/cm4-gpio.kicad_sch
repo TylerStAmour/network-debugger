@@ -4422,6 +4422,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 99.06) (xy 43.18 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "160a4c9a-b787-4c1a-8b8c-dedca8159911")
+	)
+	(wire
+		(pts
 			(xy 105.41 154.94) (xy 105.41 152.4)
 		)
 		(stroke
@@ -4792,6 +4802,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 93.98) (xy 109.22 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aa3cd1c-695f-43d7-8aab-a595810e7ea8")
+	)
+	(wire
+		(pts
 			(xy 104.14 60.96) (xy 106.68 60.96)
 		)
 		(stroke
@@ -4869,6 +4889,16 @@
 			(type solid)
 		)
 		(uuid "91d38d95-ec96-4922-9147-33ffa6aa4c79")
+	)
+	(wire
+		(pts
+			(xy 38.1 91.44) (xy 43.18 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93e0c95f-2cd3-49fc-bf0a-68897f626990")
 	)
 	(wire
 		(pts
@@ -5082,6 +5112,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 93.98) (xy 43.18 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbd729ca-cd23-40e2-b410-e500b1b86f59")
+	)
+	(wire
+		(pts
 			(xy 154.94 41.91) (xy 167.64 41.91)
 		)
 		(stroke
@@ -5272,6 +5312,28 @@
 			)
 		)
 	)
+	(global_label "MISO"
+		(shape input)
+		(at 38.1 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0c8278ed-d98b-4692-b354-e9f08465775e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.4235 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CM4_TD2+"
 		(shape output)
 		(at 38.1 48.26 180)
@@ -5316,6 +5378,28 @@
 			)
 		)
 	)
+	(global_label "SCLK"
+		(shape input)
+		(at 38.1 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2b8e0244-181c-45c6-a885-a5ce38937ef7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.2421 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CM4_TD1+"
 		(shape output)
 		(at 38.1 58.42 180)
@@ -5354,6 +5438,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCS"
+		(shape input)
+		(at 109.22 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5138a2fd-07f0-44d8-a86c-ad591a86f6b9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.9893 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5502,6 +5608,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOSI"
+		(shape input)
+		(at 38.1 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ff3d6f14-c9e3-49d2-859e-bb8f60e6b851")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.4235 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
