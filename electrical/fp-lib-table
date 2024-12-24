@@ -5,4 +5,5 @@
   (lib (name "SMBJ5.0A-TR")(type "KiCad")(uri "${KIPRJMOD}/libraries/SMBJ5.0A-TR/SMBJ5.0A-TR.pretty")(options "")(descr "Diode"))
   (lib (name "KSZ9897RTXC")(type "KiCad")(uri "${KIPRJMOD}/libraries/KSZ9897RTXC/KSZ9897RTXC.pretty")(options "")(descr "Microchip 7-Port Switch"))
   (lib (name "0826-1G1T-23-F")(type "KiCad")(uri "${KIPRJMOD}/libraries/0826-1G1T-23-F/0826-1G1T-23-F.pretty")(options "")(descr "Belfuse RJ-45 Magjack"))
+  (lib (name "ECS-250-18-5PX-F-TR")(type "KiCad")(uri "${KIPRJMOD}/libraries/ECS-250-18-5PX-F-TR/ECS-250-18-5PX-F-TR.pretty")(options "")(descr "25MHz Crystal"))
 )

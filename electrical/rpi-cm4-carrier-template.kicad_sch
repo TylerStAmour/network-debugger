@@ -14,8 +14,46 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 179.07 102.87)
-		(size 29.21 19.05)
+		(at 179.07 124.46)
+		(size 29.21 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0ea1dd01-69a1-43d7-b7da-025c86cbafd4")
+		(property "Sheetname" "Power"
+			(at 179.07 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 179.07 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "rpi-cm4-carrier-template"
+				(path "/87b93ef3-3469-436c-9ae8-16e6c9607244"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.07 101.6)
+		(size 29.21 15.24)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -26,7 +64,7 @@
 		)
 		(uuid "4602b6f1-ddcf-45b9-886d-ec7afe9a88b0")
 		(property "Sheetname" "RJ-45 Magjacks"
-			(at 179.07 102.1584 0)
+			(at 179.07 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35,7 +73,7 @@
 			)
 		)
 		(property "Sheetfile" "rj45.kicad_sch"
-			(at 179.07 122.5046 0)
+			(at 179.07 117.4246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
