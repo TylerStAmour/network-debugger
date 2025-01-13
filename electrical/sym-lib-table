@@ -6,4 +6,6 @@
   (lib (name "KSZ9897RTXC")(type "KiCad")(uri "${KIPRJMOD}/libraries/KSZ9897RTXC/KSZ9897RTXC.kicad_sym")(options "")(descr "Microchip 7Port Switch"))
   (lib (name "0826-1G1T-23-F")(type "KiCad")(uri "${KIPRJMOD}/libraries/0826-1G1T-23-F/0826-1G1T-23-F.kicad_sym")(options "")(descr "Belfuse RJ-45 Magjack"))
   (lib (name "ECS-250-18-5PX-F-TR")(type "KiCad")(uri "${KIPRJMOD}/libraries/ECS-250-18-5PX-F-TR/ECS-250-18-5PX-F-TR.kicad_sym")(options "")(descr "25MHz Crystal"))
+  (lib (name "DX4R005HJ5R2000")(type "KiCad")(uri "${KIPRJMOD}/libraries/DX4R005HJ5R2000/DX4R005HJ5R2000.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS562201DDCR")(type "KiCad")(uri "${KIPRJMOD}/libraries/TPS562201DDCR/TPS562201DDCR.kicad_sym")(options "")(descr ""))
 )
