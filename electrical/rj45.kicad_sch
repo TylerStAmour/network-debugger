@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "552acf0f-98c3-42f6-b725-a21a66af83cd")
 	(paper "A4")
+	(title_block
+		(title "Network Tap")
+	)
 	(lib_symbols
 		(symbol "0826-1G1T-23-F:0826-1G1T-23-F"
 			(pin_names
@@ -2400,6 +2403,18 @@
 		(uuid "fd0ec9c9-60fd-4895-931f-62d7c795c444")
 	)
 	(rectangle
+		(start 195.58 40.64)
+		(end 270.51 146.05)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 067ce57b-bbfc-425a-849e-65fef3d65852)
+	)
+	(rectangle
 		(start 35.56 40.64)
 		(end 181.61 146.05)
 		(stroke
@@ -2413,7 +2428,7 @@
 	)
 	(text "Passthrough RJ-45 magjacks"
 		(exclude_from_sim no)
-		(at 73.152 43.688 0)
+		(at 51.308 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2421,15 +2436,15 @@
 		)
 		(uuid "2a5f65dc-751e-4135-a3e4-580d94ce9f31")
 	)
-	(text "Should these resistors \nbe on the sink side?"
+	(text "Monitoring port"
 		(exclude_from_sim no)
-		(at 261.112 105.41 0)
+		(at 204.216 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "4e20ffcf-8b79-48d2-81ec-79b38c659ea4")
+		(uuid "4e7a7f86-d979-415b-8b04-bb10f4d3928d")
 	)
 	(global_label "MON_TD3+"
 		(shape input)

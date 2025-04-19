@@ -5,7 +5,7 @@
 	(uuid "a9a73eba-5ccd-4870-9135-83d37caf6cec")
 	(paper "A4")
 	(title_block
-		(title "Raspberry Pi Compute Module 4 Carrier Template")
+		(title "Network Tap")
 		(date "2020-10-31")
 		(rev "v01")
 		(comment 2 "creativecommons.org/licenses/by-sa/4.0")
@@ -3779,6 +3779,145 @@
 				)
 			)
 		)
+		(symbol "Connector_Generic:Conn_02x01"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x01"
+				(at 1.27 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x01_1_1"
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 3.81 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:LED"
 			(pin_numbers hide)
 			(pin_names
@@ -4251,12 +4390,6 @@
 		(uuid "64d5881a-202a-4f0f-a6d6-c1934f0f06a7")
 	)
 	(junction
-		(at 154.94 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "67051946-5349-448d-9cdc-ace48bd384f9")
-	)
-	(junction
 		(at 40.64 167.64)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -4311,10 +4444,10 @@
 		(uuid "aa43e232-7c70-4a77-8a4d-4d58eeb4b461")
 	)
 	(junction
-		(at 167.64 41.91)
+		(at 154.94 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b4afdab3-19ab-4fba-a53b-dcd87d63abbd")
+		(uuid "d3d039bd-6944-4863-b234-9cf8aeb3334b")
 	)
 	(junction
 		(at 40.64 109.22)
@@ -4339,6 +4472,10 @@
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "f726712a-3414-4ae8-9a25-eb0490e046a8")
+	)
+	(no_connect
+		(at 104.14 68.58)
+		(uuid "21854733-185e-496a-a779-9561ac6f32ac")
 	)
 	(wire
 		(pts
@@ -4402,23 +4539,13 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 60.96) (xy 167.64 71.12)
+			(xy 154.94 60.96) (xy 154.94 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0e9334bb-51b1-4dab-a9ea-05f2563ca4ff")
-	)
-	(wire
-		(pts
-			(xy 167.64 38.1) (xy 167.64 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f44c31a-b901-41dc-858c-dc993b6e983e")
 	)
 	(wire
 		(pts
@@ -4439,6 +4566,16 @@
 			(type solid)
 		)
 		(uuid "18445ef7-d587-4485-a08f-039c948d5fa1")
+	)
+	(wire
+		(pts
+			(xy 104.14 162.56) (xy 119.38 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bd166db-ca0f-423f-8568-05ae0e722d85")
 	)
 	(wire
 		(pts
@@ -4572,16 +4709,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 52.07) (xy 154.94 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34981ec5-409e-4379-8282-9ca8acf69dce")
-	)
-	(wire
-		(pts
 			(xy 104.14 86.36) (xy 106.68 86.36)
 		)
 		(stroke
@@ -4672,16 +4799,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 68.58) (xy 104.14 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ae62b1f-68e5-4ea4-ac68-de270722175e")
-	)
-	(wire
-		(pts
 			(xy 40.64 167.64) (xy 43.18 167.64)
 		)
 		(stroke
@@ -4689,6 +4806,16 @@
 			(type solid)
 		)
 		(uuid "4fdff3b3-ba20-4078-8a7b-7299db8d1aec")
+	)
+	(wire
+		(pts
+			(xy 158.75 154.94) (xy 160.02 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5010539c-1c38-4b65-98e3-40e1ee885cd4")
 	)
 	(wire
 		(pts
@@ -4742,16 +4869,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 60.96) (xy 154.94 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f5b6d48-d200-4775-a28f-10736580f7d3")
-	)
-	(wire
-		(pts
 			(xy 40.64 53.34) (xy 43.18 53.34)
 		)
 		(stroke
@@ -4799,6 +4916,16 @@
 			(type solid)
 		)
 		(uuid "6e65c170-e311-4ba6-a69f-cfb17853f4d5")
+	)
+	(wire
+		(pts
+			(xy 158.75 41.91) (xy 154.94 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a0ea3d3-2efd-4912-a7ed-ea5d6b5f5326")
 	)
 	(wire
 		(pts
@@ -4892,6 +5019,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 156.21) (xy 158.75 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92f95697-5ac8-4cbb-81b4-2d48205ae99b")
+	)
+	(wire
+		(pts
 			(xy 38.1 91.44) (xy 43.18 91.44)
 		)
 		(stroke
@@ -4922,7 +5059,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 52.07) (xy 167.64 53.34)
+			(xy 154.94 52.07) (xy 154.94 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4962,13 +5099,13 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 41.91) (xy 154.94 44.45)
+			(xy 172.72 154.94) (xy 185.42 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ad5c7653-eeb5-4139-9063-8c0f244476aa")
+		(uuid "a4407cf5-1b2c-460d-9e93-86a82adfb660")
 	)
 	(wire
 		(pts
@@ -5022,7 +5159,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 41.91) (xy 167.64 44.45)
+			(xy 154.94 41.91) (xy 154.94 44.45)
 		)
 		(stroke
 			(width 0)
@@ -5122,16 +5259,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 41.91) (xy 167.64 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc9b20b8-214e-4f90-98b0-dd8c81cb1a31")
-	)
-	(wire
-		(pts
 			(xy 104.14 154.94) (xy 105.41 154.94)
 		)
 		(stroke
@@ -5212,7 +5339,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 71.12) (xy 104.14 71.12)
+			(xy 154.94 71.12) (xy 104.14 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5280,15 +5407,37 @@
 		)
 		(uuid "ffedc9e4-ffa2-48d7-acac-1213ce85b94a")
 	)
-	(text "Some examples use 470Ohm resistors \nfor  these LEDs but won't this result \nin too low of a current (~2mA)?"
+	(text "Jump to prevent eMMC boot. Used when flashing the pi"
 		(exclude_from_sim no)
-		(at 131.064 32.512 0)
+		(at 167.386 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "a0c80003-75fe-4169-9ae6-282c703c2ad5")
+		(uuid "7d2d436c-03b0-4e0a-b489-f497e90924a0")
+	)
+	(label "nRPIBOOT"
+		(at 185.42 154.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0f531915-6dfc-4bfd-8496-aab0a326070e")
+	)
+	(label "nRPIBOOT"
+		(at 119.38 162.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "833156e7-90ed-4f06-8568-7215ea0c0623")
 	)
 	(global_label "CM4_TD2-"
 		(shape output)
@@ -5530,7 +5679,7 @@
 	)
 	(global_label "+CM4_3.3V"
 		(shape input)
-		(at 167.64 38.1 90)
+		(at 158.75 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5539,7 +5688,7 @@
 		)
 		(uuid "cdf9b9b8-6de2-4619-93b0-f27dffc1ab6f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.64 38.1 0)
+			(at 158.75 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5759,6 +5908,74 @@
 			(project ""
 				(path "/87b93ef3-3469-436c-9ae8-16e6c9607244/fc4c71a5-1008-4ac4-98db-57c838c57d91"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x01")
+		(at 165.1 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "373604c0-1144-4e10-b37d-85023d879492")
+		(property "Reference" "J4"
+			(at 166.37 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x01"
+			(at 166.37 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 165.1 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b6efe1a1-4718-4039-8afe-c01a96c1ce10")
+		)
+		(pin "1"
+			(uuid "0296bb91-083f-4e22-b12f-6a21766b94f8")
+		)
+		(instances
+			(project ""
+				(path "/87b93ef3-3469-436c-9ae8-16e6c9607244/fc4c71a5-1008-4ac4-98db-57c838c57d91"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -6461,7 +6678,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 167.64 48.26 0)
+		(at 154.94 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6469,7 +6686,7 @@
 		(dnp no)
 		(uuid "502e63f2-7000-420f-bb5b-25f65e753b84")
 		(property "Reference" "R10"
-			(at 165.1 48.26 90)
+			(at 152.4 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6477,7 +6694,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 169.926 48.26 90)
+			(at 157.226 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6485,7 +6702,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.862 48.26 90)
+			(at 153.162 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6494,7 +6711,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 48.26 0)
+			(at 154.94 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6503,7 +6720,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 167.64 48.26 0)
+			(at 154.94 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6665,7 +6882,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 167.64 57.15 90)
+		(at 154.94 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6674,7 +6891,7 @@
 		(fields_autoplaced yes)
 		(uuid "80be4cb8-fe68-460f-8ba4-4433cc075cc2")
 		(property "Reference" "D4"
-			(at 171.45 57.4674 90)
+			(at 158.75 57.4674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6683,7 +6900,7 @@
 			)
 		)
 		(property "Value" "LED_G"
-			(at 171.45 60.0074 90)
+			(at 158.75 60.0074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6692,7 +6909,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 57.15 0)
+			(at 154.94 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6701,7 +6918,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 57.15 0)
+			(at 154.94 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6710,7 +6927,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 167.64 57.15 0)
+			(at 154.94 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6871,24 +7088,25 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 154.94 48.26 0)
+		(lib_id "power:GND")
+		(at 158.75 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c709a30e-a71b-439b-bc64-564c312ab9e9")
-		(property "Reference" "R9"
-			(at 152.4 48.26 90)
+		(uuid "e17972f6-7687-4adc-a9f5-71295cd09403")
+		(property "Reference" "#PWR014"
+			(at 158.75 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "470"
-			(at 157.226 48.26 90)
+		(property "Value" "GND"
+			(at 160.02 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6896,7 +7114,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.162 48.26 90)
+			(at 158.75 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6904,8 +7122,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 154.94 48.26 0)
+		(property "Datasheet" ""
+			(at 158.75 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6913,8 +7131,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 154.94 48.26 0)
+		(property "Description" ""
+			(at 158.75 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6923,85 +7141,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d3ae8302-3a69-4b64-a13f-18633dfb812c")
-		)
-		(pin "2"
-			(uuid "8609206d-cab1-4320-8db3-1b7c1fbd019e")
+			(uuid "76436dfe-68f6-48cb-9f8d-ab48cde0853d")
 		)
 		(instances
 			(project "rpi-cm4-carrier-template"
 				(path "/87b93ef3-3469-436c-9ae8-16e6c9607244/fc4c71a5-1008-4ac4-98db-57c838c57d91"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 154.94 57.15 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d529d9ba-9c57-461f-94cb-55f97dc301ee")
-		(property "Reference" "D3"
-			(at 158.75 57.4674 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED_Y"
-			(at 158.75 60.0074 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 154.94 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d0a20508-f719-4c8b-afe5-0256f31906cf")
-		)
-		(pin "1"
-			(uuid "f39b2b47-6de4-472d-b437-6e6c1ac2ecd1")
-		)
-		(instances
-			(project "rpi-cm4-carrier-template"
-				(path "/87b93ef3-3469-436c-9ae8-16e6c9607244/fc4c71a5-1008-4ac4-98db-57c838c57d91"
-					(reference "D3")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
